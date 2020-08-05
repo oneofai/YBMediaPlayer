@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YBMediaPlayer_Example' do
+  
+  pod 'YBMediaPlayer', :path => '../'
+  pod 'YBMediaPlayer/ControlView', :path => '../'
+
+  pod 'YBMediaPlayer/IJKPlayer', :path => '../'
+  pod 'YBMediaPlayer/AVPlayer', :path => '../'
+  pod 'Masonry'
+  
+  target 'YBMediaPlayer_Tests' do
+    inherit! :search_paths
+
+  end
+end
