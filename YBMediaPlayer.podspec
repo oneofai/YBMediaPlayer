@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YBMediaPlayer'
-  s.version          = '1.1.3'
+  s.version          = '1.0.0'
   s.summary          = 'A Media Player on iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   Copyright (c) 2020 QingClass. All rights reserved.
                        DESC
 
-  s.homepage         = 'https://git.qingclass.com/app-components/ybmediaplayer'
+  s.homepage         = 'https://github.com/oneofai/YBMediaPlayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '杨光' => 'guang.yang@qingclass.com' }
-  s.source           = { :git => 'https://git.qingclass.com/app-components/ybmediaplayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/oneofai/YBMediaPlayer.git', :tag => s.version.to_s }
   s.static_framework = true
   s.default_subspec = 'Core'
 
